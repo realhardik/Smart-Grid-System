@@ -39,7 +39,7 @@ const alerts = [
 
 export default function AlertsPage() {
   return (
-    <div className="min-h-screen bg-background text-foreground dark">
+    <div className="min-h-screen bg-background text-foreground">
       <StatusHeader />
       <div className="flex h-[calc(100vh-64px)]">
         <Sidebar />
